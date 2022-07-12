@@ -1,11 +1,5 @@
-### Hi there 👋
+### Olá, pessoal! 👋
+Meu nome é Izabela, sou mineira da cidade de Santana de Cataguases.
+Me formei em Engenharia Civil pela UFJF.
+Atualmente sou estudante de qualificação em programação front-end no projeto Rio Pomba Valley, realizado pela Energisa em parceria com o Educação Livre e Senai-MG.
 
-    def test_tarefa():
-    cliente = TestClient(app)
-    tarefa_esperada = {"titulo": "titulo", "descricao": "descricao"}
-    resposta = cliente.post("/tarefas", json=tarefa_esperada)
-    tarefa_criada = resposta.json()
-    assert tarefa_criada["titulo"] == tarefa_esperada["titulo"]
-    assert tarefa_criada["descricao"] == tarefa_esperada["descricao"]
-    TAREFAS.clear()
-  
